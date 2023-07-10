@@ -8,7 +8,7 @@
 
 :root {
   --Orange: hsl(25, 97%, 53%);
-  --Orange_txt: hsla(25, 97%, 53%, 0.7);
+  --Orange_txt: hsla(25, 97%, 53%, 0.702);
   --White: hsl(0, 0%, 100%);
   --White_txt: hsla(0, 0%, 100%, 0.7);
   --Medium_Grey: hsl(216, 12%, 54%);
@@ -120,6 +120,7 @@ picture {
   min-width: 40ch;
   display: none;
   
+  
 
 }
 
@@ -136,4 +137,5 @@ picture {
   border-radius: 1rem;
   padding: 0.5rem 1rem;
   color: var(--Orange_txt);
+  justify-content: center;
 }
