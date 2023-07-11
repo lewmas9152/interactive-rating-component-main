@@ -21,21 +21,21 @@
    to help us improve our offering!</p>
  <div class="rating">
 
-  <button class="rate_btn">1</button>
-  <button class="rate_btn">2</button>
-  <button class="rate_btn">3</button>
-  <button class="rate_btn">4</button>
-  <button class="rate_btn">5</button>
+  <button class="rate_btn" onclick="setClickedValue(1)">1</button>
+  <button class="rate_btn" onclick="setClickedValue(2)">2</button>
+  <button class="rate_btn" onclick="setClickedValue(3)">3</button>
+  <button class="rate_btn" onclick="setClickedValue(4)">4</button>
+  <button class="rate_btn" onclick="setClickedValue(5)">5</button>
  </div>
  
-  <button class="submit"> Submit</button>
+  <button class="submit" name= "submit"> Submit</button>
 </div>
 
 
 
 <div class="thankYou">
   <img src="./images/illustration-thank-you.svg" alt="illustration-thank-you">
- <p class="selection"> You selected <span class="select">5</span>out of 5</p>
+ <p class="selection" id="select"></p>
 
   <h1>Thank you!</h1>
 
