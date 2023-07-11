@@ -17,19 +17,19 @@ for(let i = 0; i < rate_el.length; i++){
        clickedButton = this; 
        clickedButton.style.backgroundColor = "#fb7413";
        nextButton = rate_el[i-1];
-    //    try{
-    //     var prevButton = rate_el[i+1];
-    //     prevButton.style.backgroundColor = "#7c8798";
-    //    }
-    //      catch(err){
-    //         alert("You are at the last button");
-    //      }
-    //     try{
-    //         nextButton.style.backgroundColor = "#7c8798";
-    //     }
-    //     catch(err){
-    //         alert("You are at the first button");
-    //     }
+       try{
+        var prevButton = rate_el[i+1];
+        prevButton.style.backgroundColor = "#7c8798";
+       }
+         catch(err){
+            alert("You are at the last button");
+         }
+        try{
+            nextButton.style.backgroundColor = "#7c8798";
+        }
+        catch(err){
+            alert("You are at the first button");
+        }
         
        
     })
