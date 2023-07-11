@@ -21,15 +21,12 @@ for(let i = 0; i < rate_el.length; i++){
         var prevButton = rate_el[i+1];
         prevButton.style.backgroundColor = "#7c8798";
        }
-         catch(err){
-            alert("You are at the last button");
-         }
+         catch(err){ }
         try{
             nextButton.style.backgroundColor = "#7c8798";
         }
-        catch(err){
-            alert("You are at the first button");
-        }
+        catch(err){}
+        
         
        
     })
